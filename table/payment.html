@@ -4,55 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="payment_style.css">
     <title>payment</title>
   </head>
+  
   <body>
+    <div class="container">
     <form action="">
-      <h2 style="text-align: center">Pay here</h2>
-      <p>Name <input type="text" name="name" /></p>
-      <fieldset>
-        <legend>Gender</legend>
-        <p>
-          Male <input type="radio" name="gender" id="male" /> Female
-          <input type="radio" name="gender" id="female" />
+      <h2 >Pay Here</h2>
+      <hr>
+      <p>Name * <input type="text" name="name" required  placeholder=" Enter Your Name"/></p>
+      <fieldset class="bg_clr">
+        <legend  >Gender * </legend>
+        <p >
+          Male <input type="radio" name="gender" id="male" required /> Female
+          <input type="radio" name="gender" id="female" required />
+          Others <input type="radio" name="gender" id="others" required>
         </p>
       </fieldset>
-<p>
-    Address <textarea name="address" id="address" cols="30" rows="10"></textarea>
-</p>
-<p>
-    Email <input type="email" name="email" id="email">
-</p>
-<div>
-    Pincode <input type="number" name="pincode" id="pincode">
-</div>
-<h2>Payment Information</h2>
-<span>
-    Card type <select name="card_type" id="card_type">
-        <option value="">Select a Card</option>
-        <option value="Master_card">Master card</option>
-        <option value="global">Global</option>
-        <option value="visa">Visa</option>
-        <option value="ruppe">Ruppe</option>
-    </select>
+      <p>
+        Address
+        <textarea placeholder="Enter Your Address" name="address" id="address" cols="126" rows="10"></textarea>
+      </p>
+      <p>Email * <input placeholder="abc@gmail.com" required type="email" name="email" id="email" /></p>
+      <div>Pincode  <input type="number" name="pincode" id="pincode" /></div>
+      <h2>Payment Information </h2>
+      <span>
+        Card type *
+        <select required  name="card_type" id="card_type">
+          <option  value="">Select a Card</option>
+          <option value="Master_card">Master card</option>
+          <option value="global">Global</option>
+          <option value="visa">Visa</option>
+          <option value="ruppe">Ruppe</option>
+        </select>
+      </span>
 
-</span>
-     
-<p>
-    Card Number <input type="number" name="card_number" id="card_number">
-</p>
-<p>
-    Expairy Date <input type="date" name="exp_date" id="exp_date">
-</p>
-<p>
-    CVV <input type="password" name="cvv" id="cvv" maxlength="3">
-</p>
+      <p>
+        Card Number *  <input   type="number" name="card_number" id="card_number"   required />
+      </p>
+      <p>Expairy Date *  <input  type="date" name="exp_date" id="exp_date"  placeholder="01/2000"  required/></p>
+      <p>CVV  * <input   type="password" name="cvv" id="cvv" maxlength="3"  required/></p>
 
-    <input type="submit" value="Paynow" id="paynow">
-
+      <input type="submit" value="Paynow" id="Paynow" />
     </form>
+  </div>
   </body>
 </html>
-<style>
-    
-</style>
+<style></style>
