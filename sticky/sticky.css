@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(94, 94, 242);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.nav{
+    background-color: cornflowerblue;
+    color: black;
+   position: sticky;
+   top: 0px;
+   padding: 20px 30px;
+
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    margin: 6px;
+}
