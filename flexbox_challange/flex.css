@@ -1,0 +1,57 @@
+.hero1{
+    display: flex;
+}
+.hero2{
+    display: flex;
+}
+.hero3{
+    display: flex;
+}
+.row1{
+    background-color: chocolate;
+    border-radius: 5px;
+    height: 150px;
+width: 30%; 
+margin:5px;
+padding: 10px;
+color: aliceblue;
+font-weight: bold;
+
+}
+.row2{
+    background-color: chocolate;
+    border-radius: 5px;
+    height: 30px;
+width: 30%; 
+margin:5px;
+padding: 2%;
+color: aliceblue;
+font-weight: bold;
+}
+.roww1{
+    background-color: white;
+    height: 40px;
+    width: 30%;
+    margin: 5px;
+    padding:5px ;
+    color: black;
+    border-radius: 5px;
+}
+.rowww2{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+    width: 25%;
+    height: 25px;
+}
+.rowwww2{
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+}

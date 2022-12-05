@@ -1,50 +1,45 @@
-@media screen and (max-width:1200px) {
-  h2 {
-        color: rgb(8, 12, 12);
-        background-color: rgb(220, 217, 217);
-        text-align: center;
-    }
- .hero{
-    display: flex;
-    width: max-content;
- }
-    .frame{
-        display: flex;
-        width: max-content;
-    }   
-    
+*{
+  box-sizing: border-box;
 }
-@media screen and (min-width:400px ) and (max-width:800px)  {
-    h2 {
-          color: rgb(8, 12, 12);
-          background-color: rgb(220, 217, 217);
-          text-align: center;
-      }
-  .hero{
-    display: flex;
-  }
-  .frame{
-    flex-direction: column;
-  }
+
+@media screen and (max-width:1200px) {
+
+  
+  h2{
+    text-align: center;
+ background-color: darkslategray;
+ color: aqua;
   }
 
-@media screen and (max-width:400px) {
-    h2 {
-          color: rgb(8, 12, 12);
-          background-color: rgb(220, 217, 217);
-          text-align: center;
-      }
+.hero{
+  display: flex;
+  width: 100vw;
+}
+.card{
+  width: 25%;
+}
 
-      .hero{
-        flex-direction: column;
-      }
-      .frame{
-        flex-direction: column;
-      }
-      
-      
-    }
-    span{
-        background-color: cyan;
 
-    }
+}
+@media screen and (min-width:400)  {
+ 
+.hero{
+  
+  display: flex;
+}
+  
+}
+
+
+.card_1{
+  background-color: rgb(55, 191, 153);
+}
+.card_2{
+  background-color: rgb(89, 204, 166);
+}
+.card_3{
+  background-color: rgb(103, 207, 172);
+}
+.card_4{
+  background-color: rgb(116, 218, 184);
+}
