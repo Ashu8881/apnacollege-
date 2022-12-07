@@ -1,0 +1,35 @@
+.hero{
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    grid-template-rows: repeat(auto-fill);
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: blue;
+    height: 50%;
+}
+.body{
+    grid-row: auto;
+}
+.head{
+    background-color: blueviolet;
+}
+.banner{
+    background-color: burlywood;
+    display: grid;
+   grid-template-columns: 80% 20%;
+   
+
+}
+.artical{
+    background-color: aqua;
+}
+.ad{
+    background-color: darkgoldenrod;
+}
+.footer{
+    background-color: yellowgreen;
+}
