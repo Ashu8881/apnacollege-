@@ -2,7 +2,6 @@
     margin: 0;
     padding: 2px;
 }
-
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -13,13 +12,11 @@
     color:rgb(14, 1, 1);
 font-size: 40px;
 }
-
 .nav{
 background-color: gray;
 grid-row-start: 1;
 grid-row-end: 4;
 padding: 20px;
-
 }
 .header{
 background-color: yellowgreen;
