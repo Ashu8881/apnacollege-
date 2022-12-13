@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
 }
 
 .navbar {
     display: grid;
     grid-template-columns: 2fr repeat(5, 1fr);
     padding: 10px;
-    background-color: blue;
+    background-color:black;
+    border-radius: 60px;
    }
 
 .image {
@@ -28,13 +31,14 @@ a{
 }
 hr{
     border: 2px solid black;
+    padding: 0;
+    margin: 7px;
 }
 .hero{
     display: grid;
-    grid-template-columns: 2fr 1fr 3fr;
-   
-}
-
+    grid-template-columns:repeat(3,2fr)  ;
+    grid-column-gap: 10px;
+   }
 .like{
     height: 70px;
     width: 70px;
@@ -48,5 +52,13 @@ hr{
 input{
     padding: 5px;
     border: none;
-    
+    border-radius: 20px;
+
+}
+.like1{
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+   position: absolute;
+    top: 0;
 }
